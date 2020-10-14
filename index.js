@@ -2,8 +2,6 @@ const express = require('express')
 const http = require('http');
 const proxy = require('express-http-proxy')
 
-process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-
 const app = express()
 const port = 30002;
 
