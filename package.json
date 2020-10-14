@@ -4,13 +4,12 @@
   "description": "Simple proxy for request transit",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon --watch . index.js",
-    "start": "cross-env NODE_ENV=production nodemon --watch . index.js"
+    "dev": " nodemon --watch . index.js",
+    "start": "nodemon --watch . index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "express-http-proxy": "^1.6.2",
     "nodemon": "^2.0.5"
