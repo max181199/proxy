@@ -1,0 +1,23 @@
+{
+  "name": "simple_proxy",
+  "version": "0.0.1",
+  "description": "Simple proxy for request transit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon --watch . index.js",
+    "start": "cross-env NODE_ENV=production nodemon --watch . index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.5",
+    "winston": "^3.3.3"
+  }
+}
